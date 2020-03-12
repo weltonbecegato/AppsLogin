@@ -9,7 +9,6 @@
     tools:context=".Login_Activity">
 
     <LinearLayout
-
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="20dp"
@@ -76,27 +75,27 @@
             android:text="@string/forget_password"
             android:textColor="@color/corFonte" />
 
-<!--        <LinearLayout-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="96dp"-->
-<!--            android:gravity="center_horizontal"-->
-<!--            android:orientation="horizontal">-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
 
-            <!--            <TextView-->
-            <!--                android:layout_width="wrap_content"-->
-            <!--                android:layout_height="wrap_content"-->
-            <!--                android:layout_marginTop="85dp"-->
-            <!--                android:text="@string/don_t_have_an_account"-->
-            <!--                android:textColor="@color/corFonte" />-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="85dp"
+                android:text="@string/don_t_have_an_account"
+                android:textColor="@color/corFonte" />
 
-            <!--            <TextView-->
-            <!--                android:layout_width="wrap_content"-->
-            <!--                android:layout_height="wrap_content"-->
-            <!--                android:layout_marginLeft="10dp"-->
-            <!--                android:layout_marginTop="85dp"-->
-            <!--                android:text="@string/create_new"-->
-            <!--                android:textColor="@color/corFonte" />-->
-<!--        </LinearLayout>-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="85dp"
+                android:text="@string/create_new"
+                android:textColor="@color/corFonte" />
+        </LinearLayout>
 
     </LinearLayout>
 </LinearLayout>
